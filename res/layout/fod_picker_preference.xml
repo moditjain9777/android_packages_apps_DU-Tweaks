@@ -29,7 +29,7 @@
         android:gravity="center">
 
         <ImageButton
-            android:id="@+id/fodiconone_button"
+            android:id="@+id/fodicon0_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
             android:src="@drawable/fod_icon_default"
@@ -39,7 +39,7 @@
             android:background="@drawable/fod_picker_item_background"/>
 
         <ImageButton
-            android:id="@+id/fodicontwo_button"
+            android:id="@+id/fodicon1_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
             android:src="@drawable/fod_icon_default_1"
@@ -48,16 +48,8 @@
             android:layout_margin="@dimen/fod_picker_item_margin"
             android:background="@drawable/fod_picker_item_background"/>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center">
-
         <ImageButton
-            android:id="@+id/fodiconthree_button"
+            android:id="@+id/fodicon2_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
             android:src="@drawable/fod_icon_default_2"
@@ -66,11 +58,39 @@
             android:layout_margin="@dimen/fod_picker_item_margin"
             android:background="@drawable/fod_picker_item_background"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
         <ImageButton
-            android:id="@+id/fodiconfour_button"
+            android:id="@+id/fodicon3_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
             android:src="@drawable/fod_icon_default_3"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon4_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_default_4"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon5_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_default_5"
             android:scaleType="centerInside"
             android:padding="@dimen/fod_picker_item_padding"
             android:layout_margin="@dimen/fod_picker_item_margin"
@@ -85,7 +105,216 @@
         android:gravity="center">
 
         <ImageButton
-            android:id="@+id/fodiconfive_button"
+            android:id="@+id/fodicon6_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_arc_reactor"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon7_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_cpt_america_flat"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon8_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_cpt_america_flat_gray"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon9_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_dragon_black_flat"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon10_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_future"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon11_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_glow_circle"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon12_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_neon_arc"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon13_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_neon_arc_gray"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon14_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_neon_circle_pink"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon15_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_neon_triangle"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon16_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_paint_splash_circle"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon17_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_rainbow_horn"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon18_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_shooky"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon19_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_spiral_blue"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon20_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_sun_metro"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon21_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_rr"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon22_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_rr2"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon23_button"
             android:layout_width="@dimen/fod_picker_item_size"
             android:layout_height="@dimen/fod_picker_item_size"
             android:src="@drawable/fod_icon_invisible"
@@ -96,4 +325,227 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodiconunfunny_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_unfunny"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodiconspiral_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_spiral"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon26_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_26"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon27_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_rr"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon28_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_28"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon29_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_29"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon30_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_30"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon31_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_31"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon32_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_32"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon33_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_33"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon34_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_34"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon35_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_35"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon36_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_36"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon37_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_37"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon38_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_38"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/fodicon39_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_39"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon40_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_40"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+        <ImageButton
+            android:id="@+id/fodicon41_button"
+            android:layout_width="@dimen/fod_picker_item_size"
+            android:layout_height="@dimen/fod_picker_item_size"
+            android:src="@drawable/fod_icon_41"
+            android:scaleType="centerInside"
+            android:padding="@dimen/fod_picker_item_padding"
+            android:layout_margin="@dimen/fod_picker_item_margin"
+            android:background="@drawable/fod_picker_item_background"/>
+
+    </LinearLayout>
 </LinearLayout>
